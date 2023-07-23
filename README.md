@@ -15,8 +15,12 @@ Sistemas Operativos
 |`man` | Manual en línea, el comando "man" permite acceder al manual en línea de Linux. | Para consultar sobre un comando. |  
 |`mkdir` | Crea un directorio. | ~ulacit:`mdfir` [directorio] crea un directorio en Home /home/directorio/ | 
 |`rndir` | Borra el directorio. | ~ulacit: `rmdir` [directorio] Borra el directorio de home /home/ |
-| `.` | Directorio actual|~ulacit: `ls .`  /carpeta actual|
+| `. ` | Directorio actual|~ulacit: `ls .`  /carpeta actual|
 |`ls -l` | Lista de los archivos y carpetas de un directorio de manera detallada. | ~ulacit: `ls -l` -rw-r--r-- 1 usuario usuarios 1024 Jul 23 12:30 archivo.txt |
 | `mv` | El comando mv permite mover archivos o directorio, o cambiarles el nombre. | ~ulacit:  `mv `[file] origen destino. |
 | `rm` | Borrar archivos o directorios. | ~ulacti: `rm` [file] |
 |`remana` | cambiar el nombre a un conjunto de archivos. | ~ulacit: `rename` "." /home/directorio |
+| `more` | Despliegue en pantalla el contenido de uno o más archivos. | ~ulacit: `more *` Muestra las informaciones de los archivos. | 
+|` less ` | Permite el retroces. | ~ulacit: less [archivos] Despliega el archivo largo. | 
+| `cat` | Concatena archivos y los muestra en la salida. | ~ulacit: `cat -n`/etc/password -n numera todas las líneas. |
+| `find` | Busca el camino hacia abajo en la estructura de archivos, para buscar los archivos que cumplan con la condición especificada. | ~ulacit: `find /var -user "takayama" -name "d"` "name" nombre de archivo "b" archivo |
