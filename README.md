@@ -25,3 +25,7 @@ Sistemas Operativos
 | `cat` | Concatena archivos y los muestra en la salida. | ~ulacit: `cat -n`/etc/password -n numera todas las líneas. |
 | `find` | Busca el camino hacia abajo en la estructura de archivos, para buscar los archivos que cumplan con la condición especificada. | ~ulacit: `find /var -user "takayama" -name "d"` "name" nombre de archivo "b" archivo |
 | `chmod` | Modificar el permiso. | ~ulacit: `chmod g-r` mi.archivo -Quitar el permiso de lectura al grupo. | 
+|`umask` | Modificar los valores de los permisos por defecto. | ~ulacit: `umask 022` Con un umask de 022, los permisos asignados a los nuevos archivos serán 644. |
+| `chown` | Cambiar el usuario o grupo propietario de un archivo o directorio. | Asignar el usuario y grupo ~ulacit: chown usrl: usrl file | 
+| `set` | Permite la modificación de variables del shel y la lista de todas las variables locales. | ~ulacit; set.  lista todas las variables. | 
+
