@@ -28,4 +28,7 @@ Sistemas Operativos
 |`umask` | Modificar los valores de los permisos por defecto. | ~ulacit: `umask 022` Con un umask de 022, los permisos asignados a los nuevos archivos serán 644. |
 | `chown` | Cambiar el usuario o grupo propietario de un archivo o directorio. | Asignar el usuario y grupo ~ulacit: chown usrl: usrl file | 
 | `set` | Permite la modificación de variables del shel y la lista de todas las variables locales. | ~ulacit; set.  lista todas las variables. | 
+|`split` | Forma varios archivos a partir de uno. | ~ulacit: split -[bcla] [prefijo] -a utiliza sufijos de longitud, -b byte escribe BYTES en cada fichero de salida. -c escribe un máxomo de bytes sin cortar líneas. | 
+| `kill` | "kill" envía una señal a un cierto proceso. El uso más es para terminar un proceos corriendo en el sistema. | ~ulacit: `kill` [-señal] Se termina el proceso. | 
+
 
