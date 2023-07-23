@@ -19,3 +19,4 @@ Sistemas Operativos
 |`ls -l` | Lista de los archivos y carpetas de un directorio de manera detallada. | ~ulacit: `ls -l` -rw-r--r-- 1 usuario usuarios 1024 Jul 23 12:30 archivo.txt |
 | `mv` | El comando mv permite mover archivos o directorio, o cambiarles el nombre. | ~ulacit:  `mv `[file] origen destino. |
 | `rm` | Borrar archivos o directorios. | ~ulacti: `rm` [file] |
+|`remana` | cambiar el nombre a un conjunto de archivos. | ~ulacit: `rename` "." /home/directorio |
