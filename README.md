@@ -13,3 +13,8 @@ Sistemas Operativos
 |`whoami` | Muestra solo el nombre en el sistema | `whoami` imprimiría el nombre del usuario como root. ~ulacit~$:whoami lfeng118|
 |`su` | Ejecuta la schell sustituyendo al usuario logeado, lo puede transformarse en el usuario root si tiene la contraseña. |`su` se solicita el password: root: |
 |`man` | Manual en línea, el comando "man" permite acceder al manual en línea de Linux. | Para consultar sobre un comando. |  
+|`mkdir` | Crea un directorio. | ~ulacit:`mdfir` [directorio] crea un directorio en Home /home/directorio/ | 
+|`rndir` | Borra el directorio. | ~ulacit: `rmdir` [directorio] Borra el directorio de home /home/ |
+| `.` | Directorio actual|~ulacit: `ls .`  /carpeta actual|
+|`ls -l` | Lista de los archivos y carpetas de un directorio de manera detallada. | ~ulacit: ls -l -rw-r--r-- 1 usuario usuarios 1024 Jul 23 12:30 archivo.txt |
+| `mv` | El comando mv permite mover archivos o directorio, o cambiarles el nombre. | ~ulacit:  `mv `[file] origen destino. |
