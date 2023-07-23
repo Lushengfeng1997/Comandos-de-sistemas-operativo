@@ -24,3 +24,4 @@ Sistemas Operativos
 |` less ` | Permite el retroces. | ~ulacit: less [archivos] Despliega el archivo largo. | 
 | `cat` | Concatena archivos y los muestra en la salida. | ~ulacit: `cat -n`/etc/password -n numera todas las líneas. |
 | `find` | Busca el camino hacia abajo en la estructura de archivos, para buscar los archivos que cumplan con la condición especificada. | ~ulacit: `find /var -user "takayama" -name "d"` "name" nombre de archivo "b" archivo |
+| `chmod` | Modificar el permiso. | ~ulacit: `chmod g-r` mi.archivo -Quitar el permiso de lectura al grupo. | 
