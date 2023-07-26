@@ -32,6 +32,10 @@ Sistemas Operativos
 | `kill` | "kill" envía una señal a un cierto proceso. El uso más es para terminar un proceos corriendo en el sistema. | ~ulacit: `kill` [-señal] Se termina el proceso. | 
 |`sudo apt update && sudo apt upgrade`| Actualizar los repositorios del sistema. | ~ulacit: `sudo apt update && sudo apt upgrade` [sudo] contraseña para lfeng118: (requiere la contraseña del usuario "root" para actualizarlo.| 
 |`wget https://git.io/vpn -O openvpn-ubuntu-install.sh` |Comando para instalar la aplicación de VPN.| ~ulacit: wget https://git.io/vpn -O openvpn-ubuntu-install.sh --2023-06-15 --https://git.io./vpn/ 
-
+|`chmod -v +x openvpn-ubuntu-install.sh` | El comando para descomprimir el paquete de "vpn".| ~ulacit: chmod -v +x openvpn-ubuntu-install.sh 2023-06-21 saved |
+|`ip addr show` | Muestra la dirección de IP. | ~ulacit: ip addr show la direción de ip se despliega en la pantalla. | 
+|`sudo openvpn  --config /root/(nombre de archivo).ovpn`| Comando para configurar la aplicación en el sistema operativo. | ~ulacit: sudo openvpn  --config /root/osaka.ovpn  se configura y se establece la conexión en el sistema operativo | 
+|`sudo chmod 777 root` | Comando para dar el privilegio a la carpeta "root". | ~~ulacit:sudo chmod 777 root    ~ulacit:  | 
+|`‘sudo chmod +r osaka.ovpn` | Comando para habilitar el permiso de mover el archivo. | ~ulacit: ‘sudo chmod +r osaka.ovpn ~ulacit: | 
 
 
