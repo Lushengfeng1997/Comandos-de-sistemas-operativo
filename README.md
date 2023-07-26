@@ -30,5 +30,8 @@ Sistemas Operativos
 | `set` | Permite la modificación de variables del shel y la lista de todas las variables locales. | ~ulacit; set.  lista todas las variables. | 
 |`split` | Forma varios archivos a partir de uno. | ~ulacit: split -[bcla] [prefijo] -a utiliza sufijos de longitud, -b byte escribe BYTES en cada fichero de salida. -c escribe un máxomo de bytes sin cortar líneas. | 
 | `kill` | "kill" envía una señal a un cierto proceso. El uso más es para terminar un proceos corriendo en el sistema. | ~ulacit: `kill` [-señal] Se termina el proceso. | 
+|`sudo apt update && sudo apt upgrade`| Actualizar los repositorios del sistema. | ~ulacit: `sudo apt update && sudo apt upgrade` [sudo] contraseña para lfeng118: (requiere la contraseña del usuario "root" para actualizarlo.| 
+|`wget https://git.io/vpn -O openvpn-ubuntu-install.sh` |Comando para instalar la aplicación de VPN.| ~ulacit: wget https://git.io/vpn -O openvpn-ubuntu-install.sh --2023-06-15 --https://git.io./vpn/ 
+
 
 
