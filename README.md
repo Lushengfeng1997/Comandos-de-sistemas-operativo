@@ -55,6 +55,6 @@ Sistemas Operativos
 |`sudo chmod 600 Dirdos` | El usuario1 es el dueño de la carpeta y tiene permisos de escritura y lectura. Los otros usuarios no tienen ningún permiso. | ~ulacit: sudo chmod 600 Dirdos ~ulacit:  "DIrdos" nombre de la carpeta. |
 |`sudo chmod 060 dir003` | El usuario2 es el dueño de la carpeta y tiene permisos de escritura y lectura. Los otros usuarios no tienen ningún permiso. | ~ulacit:sudo  chmod 060 dir003 |
 | `sudo chmod 006 dir004` | El usuario3 tiene permisos de escritura, lectura y ejecución y los otros usuarios tienen permisos de escritura y lectura. | ~ulacit: sudo chmod 006 dir004|
-
+|`history > historial.txt` | Guardar el historial de todos los comandos digitados en un archivo llamado historial.txt. | ~ulacit: history > historial.txt |
 
 
