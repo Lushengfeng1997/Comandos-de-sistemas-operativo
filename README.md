@@ -30,12 +30,21 @@ Sistemas Operativos
 | `set` | Permite la modificación de variables del shel y la lista de todas las variables locales. | ~ulacit; set.  lista todas las variables. | 
 |`split` | Forma varios archivos a partir de uno. | ~ulacit: split -[bcla] [prefijo] -a utiliza sufijos de longitud, -b byte escribe BYTES en cada fichero de salida. -c escribe un máxomo de bytes sin cortar líneas. | 
 | `kill` | "kill" envía una señal a un cierto proceso. El uso más es para terminar un proceos corriendo en el sistema. | ~ulacit: `kill` [-señal] Se termina el proceso. | 
-|`sudo apt update && sudo apt upgrade`| Actualizar los repositorios del sistema. | ~ulacit: `sudo apt update && sudo apt upgrade` [sudo] contraseña para lfeng118: (requiere la contraseña del usuario "root" para actualizarlo.| 
+|`sudo apt update && sudo apt upgrade`| Actualizar los repositorios del sistema. | ~ulacit: `sudo apt update && sudo apt upgrade` [sudo] contraseña para lfeng118: (requiere la contraseña del usuario "root" para actualizarlo. | 
 |`wget https://git.io/vpn -O openvpn-ubuntu-install.sh` |Comando para instalar la aplicación de VPN.| ~ulacit: wget https://git.io/vpn -O openvpn-ubuntu-install.sh --2023-06-15 --https://git.io./vpn/ 
 |`chmod -v +x openvpn-ubuntu-install.sh` | El comando para descomprimir el paquete de "vpn".| ~ulacit: chmod -v +x openvpn-ubuntu-install.sh 2023-06-21 saved |
 |`ip addr show` | Muestra la dirección de IP. | ~ulacit: ip addr show la direción de ip se despliega en la pantalla. | 
 |`sudo openvpn  --config /root/(nombre de archivo).ovpn`| Comando para configurar la aplicación en el sistema operativo. | ~ulacit: sudo openvpn  --config /root/osaka.ovpn  se configura y se establece la conexión en el sistema operativo | 
 |`sudo chmod 777 root` | Comando para dar el privilegio a la carpeta "root". | ~~ulacit:sudo chmod 777 root    ~ulacit:  | 
 |`‘sudo chmod +r osaka.ovpn` | Comando para habilitar el permiso de mover el archivo. | ~ulacit: ‘sudo chmod +r osaka.ovpn ~ulacit: | 
+|`sudo pacman -Sy` | Actualizar los paquetes en el sistema operativo. | ~ulacit:`sudo pacman -Sy` ~ulacit:actualizado... |
+|`sudo pacman -S unrar zip unzip gzip bzip2` | Instalar nuevos paquetes para comprimir y descomprimir archivos. | ~ulacit:sudo pacman -S unrar zip unzip gzip bzip2 ~ulacit:~~~ |
+|`sudo pacman -S yay && sudo yay -S --needed base-devel` | nstalar el Repositorio AUR (Arch User Repository). Este repositorio permite tener acceso a otros paquetes de software que no están disponibles en el repositorio principal de Manjaro. | 
+|`yay -S google-chrome` | Instalar google-chrome por medio del instalador de paquetes yay. | ~ulaci: yay -S google-chrome |
+|` sudo pacman -S apache` | Instalar Apache para configurar le archivo de html. | ~ulaci: sudo pacman -S apache |
+| `hhtps:http://localhost/` | Acceder la página de index de servidor. | Utilizar el navegador para acceder |
+| `uname -a` | Verificar el kernel que está utilizando el SO. | ~ulacit: uname -a |
+| `git clone https://github.com/mortasoft/linux-scripts` | Utilizar el link de github para crear una copia de la carpeta en el servidor. | ~ulacit:git clone https://github.com/mortasoft/linux-scripts ( es importante cambia el link por el link de su carpeta. | 
+
 
 
