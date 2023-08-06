@@ -49,5 +49,5 @@ Sistemas Operativos
 | `mkdir dirtres` | Crear una carpeta | ~ulacit: mkdir dirtres (dirtres es nombre de la carpteta.) 1 
 | `ls /bin` | Salida del comando. | ~ulacit: ls /bin > guardar.txt Utilizar el carácter < o > para guardar en un archivo. | 
 | `ls -la /etc/a* > $HOME/dir003/dircuatro/archivo2` | Crear un archivo en determinado lugar. | ~ulacit:`ls -la /etc/a* > $HOME/dir003/dircuatro/archivo2` La ruta de destinatorio. |
-
+|22|
 
