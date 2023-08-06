@@ -49,5 +49,12 @@ Sistemas Operativos
 | `mkdir dirtres` | Crear una carpeta | ~ulacit: mkdir dirtres (dirtres es nombre de la carpteta.) 1 
 | `ls /bin` | Salida del comando. | ~ulacit: ls /bin > guardar.txt Utilizar el carácter < o > para guardar en un archivo. | 
 | `ls -la /etc/a* > $HOME/dir003/dircuatro/archivo2` | Crear un archivo en determinado lugar. | ~ulacit:`ls -la /etc/a* > $HOME/dir003/dircuatro/archivo2` La ruta de destinatorio. |
-|22|
+|`ls -l $HOME 1> $HOME/dir003/dircuatro/archivo3`| El comando para crear un archivo en la carpeta dircuatro. | ~ulacit: ls -l $HOME 1> $HOME/dir003/dircuatro/archivo3 ~ulacit: |
+|`sudo cp -r/etc/a*/home/manjaro/dirdos`| copie todos los archivos de /etc cuyo nombre comience con “a“ a la carpeta dirdos. | ~ulacit: sudo cp -r/etc/a*/home/manjaro/dirdos  "manjaro" nombre del usuario y "dirdos" la carpeta destino del archivo. | 
+|`mv /home/manjaro/diruno/archivo0 /home/manjaro/dir004/` | Mover un archivo hacia un cierto lugar que desee. | ~ulacit:`mv /home/manjaro/diruno/archivo0 /home/manjaro/dir004   Ruta de archivo original, la ruta de archivo destino. |
+|`sudo chmod 600 Dirdos` | El usuario1 es el dueño de la carpeta y tiene permisos de escritura y lectura. Los otros usuarios no tienen ningún permiso. | ~ulacit: sudo chmod 600 Dirdos ~ulacit:  "DIrdos" nombre de la carpeta. |
+|`sudo chmod 060 dir003` | El usuario2 es el dueño de la carpeta y tiene permisos de escritura y lectura. Los otros usuarios no tienen ningún permiso. | ~ulacit:sudo  chmod 060 dir003 |
+| `sudo chmod 006 dir004` | El usuario3 tiene permisos de escritura, lectura y ejecución y los otros usuarios tienen permisos de escritura y lectura. | ~ulacit: sudo chmod 006 dir004|
+
+
 
