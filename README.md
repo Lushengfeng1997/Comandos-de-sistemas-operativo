@@ -45,6 +45,9 @@ Sistemas Operativos
 | `hhtps:http://localhost/` | Acceder la página de index de servidor. | Utilizar el navegador para acceder |
 | `uname -a` | Verificar el kernel que está utilizando el SO. | ~ulacit: uname -a |
 | `git clone https://github.com/mortasoft/linux-scripts` | Utilizar el link de github para crear una copia de la carpeta en el servidor. | ~ulacit:git clone https://github.com/mortasoft/linux-scripts ( es importante cambia el link por el link de su carpeta. | 
-
+|`sudo useradd -m nombredeusuario -G wheel -p passworddelusuario` | Comando para agregar un nuevo usuario. | ~ulacit: `sudo useradd -m nombredeusuario -G wheel -p passworddelusuario` (Reemplazar el nombreusuario y la contraseña por lo que quiera. | 
+| `mkdir dirtres` | Crear una carpeta | ~ulacit: mkdir dirtres (dirtres es nombre de la carpteta.) 1 
+| `ls /bin` | Salida del comando. | ~ulacit: ls /bin > guardar.txt Utilizar el carácter < o > para guardar en un archivo. | 
+| `ls -la /etc/a* > $HOME/dir003/dircuatro/archivo2` | Crear un archivo en determinado lugar. | ~ulacit:`ls -la /etc/a* > $HOME/dir003/dircuatro/archivo2` La ruta de destinatorio. |
 
 
