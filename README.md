@@ -56,5 +56,9 @@ Sistemas Operativos
 |`sudo chmod 060 dir003` | El usuario2 es el dueño de la carpeta y tiene permisos de escritura y lectura. Los otros usuarios no tienen ningún permiso. | ~ulacit:sudo  chmod 060 dir003 |
 | `sudo chmod 006 dir004` | El usuario3 tiene permisos de escritura, lectura y ejecución y los otros usuarios tienen permisos de escritura y lectura. | ~ulacit: sudo chmod 006 dir004|
 |`history > historial.txt` | Guardar el historial de todos los comandos digitados en un archivo llamado historial.txt. | ~ulacit: history > historial.txt |
+|`nano Script_01.sh` | utilizar el archivo de nano para crear un archivo de bash. | ~~ulacit: nano Script_01.sh |
+| `bash Script_01.sh` | El comando para correr el archivo de bash directamente. | ~~ulacit: bash Script_01.sh | 
+|`sudo apt install apt-transport-https \ ca-certificates curl gnupg-agent software-properties-common`| Instalar dependencias | ~ulacit:sudo apt install apt-transport-https \ca-certificates curl gnupg-agent software-properties-common|
 
+ 
 
