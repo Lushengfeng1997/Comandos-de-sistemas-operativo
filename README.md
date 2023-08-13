@@ -59,6 +59,22 @@ Sistemas Operativos
 |`nano Script_01.sh` | utilizar el archivo de nano para crear un archivo de bash. | ~~ulacit: nano Script_01.sh |
 | `bash Script_01.sh` | El comando para correr el archivo de bash directamente. | ~~ulacit: bash Script_01.sh | 
 |`sudo apt install apt-transport-https \ ca-certificates curl gnupg-agent software-properties-common`| Instalar dependencias | ~ulacit:sudo apt install apt-transport-https \ca-certificates curl gnupg-agent software-properties-common|
+|`sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"` |Agregar el repositorio oficial de Docker. | ~ulacit:sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable" |
+|`sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose` | Instalar Docker. | ~ulacit:sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose |
+|`sudo usermod -aG docker ${USER}` | Ejecutar Docker sin sudo. | ~~ulacit:sudo usermod -aG docker ${USER} | 
+|`sudo systemctl start docker` o `sudo systemctl enable docker` | Ejecutar Docker al iniciar el equipo. | ~ulacit:sudo systemctl start docker |
+|` sudo docker run hello-world` | Probar que funcione con el comando. | ~ulacit: sudo docker run hello-world |
+|`docker pull wordpress` | Descarga la imagen del contenedor. | ~ulacit:docker pull wordpress |
+|`docker images` | Ver imágenes instaladas. | ~ulacit: docker images |
+|`docker run ubuntu` | Ejecuta un nuevo contenedor usando una imagen. | ~ulacit:docker run ubuntu |
+|`sudo docker ps -a` | Ver el estado de los contenedores. | ~ulacit: sudo docker ps -a |
+|`sudo  docker start d9b100f2f636` | Inicia un contenedor en estado detenido | ~ulacit: sudo  docker start d9b100f2f636 |
+|`docker rmi Image Image` | Eliminar imagenes de docker | ~ulacit:docker rmi Image Image|
+|`sudo  docker stop d9b100f2f636` | Detiene un contenedor que esté corriendo. | ~ulacit: sudo  docker stop d9b100f2f636 |
+|`docker rm ID` | Eliminar contenedores. | ~ulacit:Eliminar contenedores | ~ulacit:docker rm ID |  
+|`docker run --rm image_name` | Eliminar contenedor después de cerrado. | ~ulacit:docker run --rm image_name | 
+|`sudo docker rm $(sudo docker ps -a -f status=exited -q)` | Eliminar todos los contenedores “Exited (0)” | ~ulacit:sudo docker rm $(sudo docker ps -a -f status=exited -q) |
 
- 
+
+
 
