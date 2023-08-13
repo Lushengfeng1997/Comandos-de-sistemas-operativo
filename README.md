@@ -74,7 +74,10 @@ Sistemas Operativos
 |`docker rm ID` | Eliminar contenedores. | ~ulacit:Eliminar contenedores | ~ulacit:docker rm ID |  
 |`docker run --rm image_name` | Eliminar contenedor después de cerrado. | ~ulacit:docker run --rm image_name | 
 |`sudo docker rm $(sudo docker ps -a -f status=exited -q)` | Eliminar todos los contenedores “Exited (0)” | ~ulacit:sudo docker rm $(sudo docker ps -a -f status=exited -q) |
-
-
-
-
+|`docker pull portainer/portainer-ce:latest` | Obtener la imagen docker de Portainer. | ~ulacit:docker pull portainer/portainer-ce:latest | 
+|`sudo docker volume create portainer_data` | Crear un volumen donde se almacenarán los datos de configuración de Portainer. | ~ulacit:sudo docker volume create portainer_data |
+|`sudo docker run -d -p 8000:8000 -p 9443:9443 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/dataportainer/portainer-ce:latest` | Ejecutar la aplicación con el puerto 9443 y el puerto 8000 expuesto. |~ulacit:sudo docker run -d -p 8000:8000 -p 9443:9443 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest |
+|` https://localhost:9443/#!/auth` | Abrir en el navegador la URL de Portainer.| 
+|`sudo docker stop portainer` | Detener el "portainer". | ~ulacit:sudo docker stop portainer |
+|`sudo docker rm portainer` | Eliminar el "portainer" . | ~ulacit: sudo docker rm portainer | 
+|`sudo docker rm volume portainer` | Eliminar el volume de portainer. | ~ulacit:sudo docker rm volume portainer |
